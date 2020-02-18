@@ -13,7 +13,7 @@ const AddedFeatures = props => {
           ))}
         </ol>
       ) : (
-        <p>You can purchase items from the store.</p>
+        <p>Purchase extra items from the store.</p>
       )}
     </div>
   );

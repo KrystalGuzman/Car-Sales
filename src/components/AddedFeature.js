@@ -5,7 +5,7 @@ const AddedFeature = props => {
   return (
     <li>
       {/* Add an onClick to run a function to remove a feature */}
-      <button onClick={()=>props.removeFeature(props.feature)} class="button is-dark">X</button>
+      <button onClick={()=>props.removeFeature(props.feature)} class="button is-dark">Remove</button>
       {props.feature.name}
     </li>
   );
